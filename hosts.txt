@@ -1,22 +1,11 @@
 127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
 ::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
 
-#--REX
-192.168.86.50	svr
-192.168.86.50	svr.com
-192.168.86.40	send-svr
-192.168.86.41	surx
-192.168.86.43	mycloud
-192.168.86.43	mycloud.com
-192.168.86.50	host1
-192.168.86.42	host2
-192.168.86.50	host3
-192.168.86.42	host4
-104.198.16.153	rxcl2
-104.198.16.153	rxcl2.com
-192.168.1.30	rxlx
-192.168.86.41	surx.com
+# Most of this work was done by some cool people over at someonewhocares.org
+# I just wanted to add some extra entries and of course my local network junk
 
+#------------------------------BLACKLIST------------------------------#
+#--shock sites
 127.0.0.1 1girl1pitcher.com
 127.0.0.1 1girl1pitcher.org
 127.0.0.1 1guy1cock.com
@@ -54,13 +43,15 @@
 127.0.0.1 eelsoup.net
 127.0.0.1 fruitlauncher.com
 127.0.0.1 funnelchair.com
+
+
+#--ads
 127.0.0.1	c.amazon-adsystem.com
 127.0.0.1	ads.mopub.com
 127.0.0.1	googleads.g.doubleclick.net
 127.0.0.1	adservice.google.com
 127.0.0.1	graph.facebook.com
 127.0.0.1	client.smartthings.com
-127.0.0.1	samsung-preprod-na03s-useast2-continy-stg.s3.us-east-2.amazonaws.com
 127.0.0.1	us-auth2.samsungosp.com
 127.0.0.1	vas.samsungapps.com
 127.0.0.1	client.smartthings.com
@@ -68,6 +59,14 @@
 127.0.0.1	apis.samsungiotcloud
 127.0.0.1	ad.doubleclick.net
 127.0.0.1	b.thumbs.redditmedia.com
+127.0.0.1	e.reddit.com
+127.0.0.1	gql.reddit.com
+127.0.0.1	www.googleadservices.com
+127.0.0.1	ads.mopub.com
+
+
+
+#--i dont actually know tbh
 127.0.0.1 0001-cab8-4c8c-43de.reporo.net
 127.0.0.1 002-slq-470.mktoresp.com
 127.0.0.1 004-btr-463.mktoresp.com
@@ -42364,3 +42363,4 @@
 127.0.0.1 gscounters.us1.gigya.com
 127.0.0.1 gscounters.eu1.gigya.com
 127.0.0.1 counters.gigya.com
+

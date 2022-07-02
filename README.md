@@ -1,2 +1,2 @@
 # hosts
-the hosts file on my proxy server. ads are blocked by default (theyre spaced uniquely). idea from somebodywhocares.org
+just the hosts file i carry around to decrease the ever increasing onslaught of ads
